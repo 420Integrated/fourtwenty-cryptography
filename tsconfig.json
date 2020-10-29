@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "rootDirs": ["./src", "./test"],
+    "outDir": "./test-builds/tsc",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
